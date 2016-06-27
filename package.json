@@ -1,6 +1,6 @@
 {
   "name": "columnify-dependents-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "scripts": {
     "postversion": "git push origin master && git push --tags",
