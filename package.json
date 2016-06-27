@@ -1,0 +1,27 @@
+{
+  "name": "columnify-dependents-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "postversion": "git push origin master && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-calleja/columnify-dependents-cli.git"
+  },
+  "author": "Justin Calleja <calleja.justin@gmail.com> (justincalleja.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-calleja/columnify-dependents-cli/issues"
+  },
+  "homepage": "https://github.com/justin-calleja/columnify-dependents-cli#readme",
+  "dependencies": {
+    "columnify": "^1.5.4",
+    "meow": "^3.7.0",
+    "pkg-dependents": "~0.0.11",
+    "pkg-json-info-dict": "~0.0.6",
+    "update-dependents": "~0.0.5"
+  }
+}
