@@ -10,8 +10,8 @@ const cli = meow(`
         $ columnify-dependents [options]
 
     columnify-dependents is used to list packages, their dependents,
-    and the versions these dependents use package as under their own
-    dependencies/peerDependencies/devDependencies.
+    and the versions these dependents use under their own
+    dependencies / peerDependencies / devDependencies.
 
     The considered packages are the ones in paths added with the -a option
     (or just the current directory if no -a is used).
