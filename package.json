@@ -2,7 +2,6 @@
   "name": "columnify-dependents-cli",
   "version": "0.0.3",
   "description": "",
-  "main": "cli.js",
   "scripts": {
     "postversion": "git push origin master && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
