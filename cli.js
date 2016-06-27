@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var pkgDependents = require('pkg-dependents');
 var readPkgJSONInfoDict = require('pkg-json-info-dict').readPkgJSONInfoDict;
 var path = require('path');
