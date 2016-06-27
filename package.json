@@ -7,6 +7,9 @@
     "postversion": "git push origin master && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "columnify-dependents": "./cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justin-calleja/columnify-dependents-cli.git"
